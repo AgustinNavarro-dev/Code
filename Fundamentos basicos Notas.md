@@ -7,3 +7,10 @@ El metodo "main" suele ser la super clase. Es donde corre todo el programa
 - Atributos: En el caso del rectangulo sería la base y la altura.
 - Metodos: El rectangulo a travez de un metodo tendria la posibilidad de calcular su area. Por ejemplo multiplincado su base por su altura.
  Vendría a ser un conjunto de instrucciones.
+ 
+### Arreglos / array
+Es como una variable, puede ser texto o numeros, etc
+- Unidimensionales: arreglo[5] se puede mover izq derecha
+- Bidimensionales: arreglo[3][3] se puede mover izq derecha arriba abajo
+
+
