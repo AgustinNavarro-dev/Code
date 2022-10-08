@@ -1,9 +1,9 @@
-numlist = list()
-while True:
-    inp = input("Enter a number: ")
-    if inp == "done" : break
-    value = float(inp)
-    numlist.append(value)
-average = sum(numlist) / len(numlist)
+## usar find con una lista
 
-print(average)
+fhand = open("mbox-short.txt")
+for line in fhand:
+    line = line.rstrip()
+    if not line.startswith("From ") : continue
+    words = line.split()
+    print(words[2])
+    #con esto, lo que hago es buscar directamente esa palabra
