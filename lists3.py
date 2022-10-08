@@ -1,9 +1,9 @@
-numlist = list()
-while True:
-    inp = input("Enter a number: ")
-    if inp == "done" : break
-    value = float(inp)
-    numlist.append(value)
-average = sum(numlist) / len(numlist)
+#the double split pattern
+#podemos usar split varias veces para buscar mejor
+#from: navarro@mail.com 29, jueves
+words = line.split()
+email = words(1)
+pieces = email.split("@")
+print = pieces(1)
 
-print(average)
+#con esto lo que haria es imprimir el mail directamente
