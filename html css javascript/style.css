@@ -1,0 +1,148 @@
+#titulo{color: tomato}
+p.texto {color: slateblue}
+p.especial{color: mediumseagreen;}
+div p {color: red}
+div h2{color: fuchsia}
+* {font-size: 24px; /*esto es un selector universal, solo cambia las propiedades de los items que no tengan ninguna propiedad asignada*/
+color: blue;}
+
+/*.color{
+    color: #00f;
+}*/
+
+/*.color{
+    color: rgb(255, 255, 0)
+}*/
+
+.color{
+    /* border: 5px blueviolet outset; */
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 5rem;
+}
+
+#fondo{
+    background-color: rgba(0, 0, 0, 0.3);
+    /* opacity: 0.3; */
+    height: 400px;
+    background: red url("coffe.jpg");
+    background-size: cover; /*ajusta la imagen, se ajusta segun la imagen del navegador*/
+    border: solid 3px black;
+}
+.margen{
+    background-color: black;
+    margin: 15px 20px 25px 30px;
+    padding: 30px 25px 30px 30px;
+    border: solid 3px red;
+    height: 100px;
+    width: 50px;
+    overflow: hidden;
+    outline: 1px solid red;
+}
+
+.text {
+    text-align: justify;
+    text-decoration: overline;
+    text-shadow: 3px 5px 5px grey;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+a:link {
+    color: blueviolet;
+}
+a:visited {
+    color: grey;
+}
+a:hover {
+    color: yellow;
+}
+a:active {
+    color: red;
+}
+
+ul {
+    background-color: cyan;
+    list-style-type: circle;
+    /* padding-left: 0; */
+    /* list-style-position: inside; */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 2px #eee;
+    padding: 5px;
+}
+
+th {
+    background-color: tomato;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+tr:hover {
+    background-color: #aaa;
+    cursor: pointer;
+}
+
+span {
+    display: block; /* cuando ponemos block, los elementos se agregan en otra linea */
+    /* visibility: hidden; */
+    max-width: 300px; /* es el ancho max */
+    background-color: red;
+}
+
+.inline {
+    display: inline; /* usando inline podemos agregar objetos sin que salten a otra linea */
+}
+
+#position {
+    position: absolute; /* con esto se dejan pegados elementos en la pantalla */
+    left: 20px;
+}
+
+.left {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.right {
+    float: right;
+    width: 100px;
+}
+
+.container {
+    height: 200px;
+}
+
+.card {
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    margin: 0 15px;
+    padding: 10px 0;
+    width: 33.3%;
+
+}
+
+.inline-block {
+    display: inline-block; /* se utiliza para hacer menus de navegacion izquierda a derecha
+ */
+    height: 55px;
+    background-color: red;
+}
+
+.center{ /* con esto centramos, es lo que mas se usa */
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: aqua;
+}
