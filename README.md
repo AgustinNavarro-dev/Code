@@ -1,5 +1,5 @@
 # Programacion
-Que aprender para trabajar en Cope.
+Learning
 -Automatizar con python (aprendiendo esto)
 -C#
 -.Net 3/5/6
